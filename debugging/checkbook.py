@@ -1,5 +1,7 @@
+#!/usr/bin/python3
+
 class Checkbook:
-    def _init_(self):
+    def __init__(self):
         self.balance = 0.0
 
     def deposit(self, amount):
@@ -50,5 +52,5 @@ def main():
             print("Invalid command. Please try again.")
 
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     main()
